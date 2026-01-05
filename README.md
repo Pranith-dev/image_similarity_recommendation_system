@@ -4,12 +4,12 @@ image_similarity_recommendation_system
 
 ## Dataset
 Due to GitHub file size limitations, the dataset is hosted externally(google drive).
-📥 Dataset Download Link:  
+ Dataset Download Link:  
 https://drive.google.com/drive/folders/1MisrfoAR6OT6cGsVuYhCtYFGIg-i49uS?usp=drive_link
 
 ## Pretrained Model
 The trained ML model is also hosted externally(google drive).
-📥 Model Download Link:  
+ Model Download Link:  
 https://drive.google.com/file/d/1BPPUieypsDUW6-hjzluHeXPmZnZ9eMRy/view?usp=drive_link
 
 ## Folder Structure
@@ -27,11 +27,13 @@ project/
 
 
 # Steps to execute the Project
-1. Download the dataset and pretrained model from the drive
+1. Download the dataset and pretrained model from the drive link provided above keep them in project folder
 2. Install all the packages from the requirements.txt file
-3. Create a folder and save the model.py, build.py.
-4. execute the interface application which is "app.py" with "streamlit app.py" command
-5. when you execute it, from "model.py" it creates a "build_db folder" and its files we can see them in "folder structure".
+3. Run the build_db.py this creates vector database (RUN ONCE)  for all ths dataset images, After this, db/ folder will be filled.
+4. execute the interface application which is "app.py" with command streamlit run app.py in the terminal
+5.  wait for 1 min as there more than 12000 images it will take some time to load the vector database
+6.  try with different images like dog,cat,elephant,butterfly,horse 
 
-# Video Explanation Link
-📥https://drive.google.com/file/d/1WyHbUI-nyy0uYoJ4Qsui2avuRcbC4Gbn/view?usp=drive_link
+
+# Video Link
+https://drive.google.com/file/d/1WyHbUI-nyy0uYoJ4Qsui2avuRcbC4Gbn/view?usp=drive_link
