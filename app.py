@@ -1,5 +1,5 @@
 import streamlit as st
-st.write("✅ App started")
+st.write(" App started")
 import torch
 from PIL import Image
 from torchvision import transforms
@@ -62,3 +62,4 @@ if uploaded:
 
     for i, idx in enumerate(top5):
         cols[i].image(db_paths[idx])
+
